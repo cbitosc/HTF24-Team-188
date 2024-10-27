@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect!</title>
+    <nav>
+        <a href="index3.html">For Adoption</a> 
+    </nav>
+    <link rel="stylesheet" href="style3.css">
+
+</section>
+<div id="messageModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeMessageModal()">&times;</span>
+        <h2>Message To Pet Owner</h2>
+        <form id="messageForm" onsubmit="sendMessage(event)">
+            <label for="supplierEmail">To:</label>
+            <input type="text" id="supplierEmail" name="supplierEmail" readonly>
+
+            <label for="messageText">Message:</label>
+            <textarea id="messageText" name="messageText" placeholder="Write your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+</section>
+
+<div class="container">
+    <!-- Application Form Button -->
+    <button onclick="location.href='application_form.html'" class="application-button">
+    <nav>
+        <a href="application.html">For Application </a> 
+    </nav></button>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
+
+

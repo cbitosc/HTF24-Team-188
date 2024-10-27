@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup - Happypaws</title>
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <header>
+        <h1>Welcome to HappyPaws</h1>
+        <p>Your trusted online pet adoption platform!!</p>
+    </header>
+
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form-container" id="loginContainer">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" required>
+
+                <button type="submit">
+                <nav>
+                    <a href="index3.html">Login</a> 
+                </nav></button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="toggleForms()">Sign up here!</a></p>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form-container" id="signupContainer" style="display: none;">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="signupName">Name:</label>
+                <input type="text" id="signupName" required>
+
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" required>
+
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="toggleForms()">Login here!</a></p>
+        </div>
+    </div>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>HappyPaws is a platform dedicated to connecting verified pet owners with potential adopters. Our mission is to ensure every pet finds a safe and loving home. 
+
+            Our adoption process is designed to be simple and supportive, ensuring that every adoption is a perfect match. We offer guidance and resources to help new pet parents create a joyful and lifelong bond with their companions.
+            
+            At the heart of what we do is a belief: pets are not just animals—they are family. Join us in making a difference, one adoption at a time.</p>
+    </section>
+
+    <script src="login.js"></script>
+    <script>
+        function toggleForms() {
+            const loginContainer = document.getElementById("loginContainer");
+            const signupContainer = document.getElementById("signupContainer");
+
+            if (loginContainer.style.display === "none") {
+                loginContainer.style.display = "block";
+                signupContainer.style.display = "none";
+            } else {
+                loginContainer.style.display = "none";
+                signupContainer.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
