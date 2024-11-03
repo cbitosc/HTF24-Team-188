@@ -1,0 +1,108 @@
+/* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #ffffff; /* White background */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: 400px; /* Width of the modal */
+}
+
+/* Close Button */
+.close-button {
+    color: #aaa; /* Grey color */
+    float: right; /* Float to the right */
+    font-size: 28px; /* Font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000; /* Change color on hover */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Modal Header */
+h2 {
+    color: #4CAF50; /* Green color */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Form Elements */
+label {
+    display: block; /* Block layout */
+    margin: 10px 0 5px; /* Space above and below */
+    font-size: 1.1em; /* Larger font size */
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each input */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Send Message Button */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px; /* Padding */
+    width: 100%; /* Full width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Button Styling for Application Form */
+.application-button {
+    background-color: #4CAF50; /* Green shade */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: block; /* Centers the button */
+    margin: 20px auto; /* Centers the button */
+    transition: background-color 0.3s;
+}
+
+.application-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,76 @@
+/* Main font and colors */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Consistent background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 20px; /* Padding around the body */
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px; /* Increased width for consistency */
+    margin: auto;
+    background: white; /* White background for the form */
+    padding: 30px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* Header Styling */
+h1, h2 {
+    text-align: center; /* Centered text */
+    color: #4CAF50; /* Green color for headers */
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-top: 15px; /* Spacing between label and inputs */
+    font-size: 1.1em; /* Larger font for labels */
+}
+
+/* Input and Select Styling */
+input, select {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 12px; /* Padding for better touch targets */
+    margin-top: 5px; /* Spacing above inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size for readability */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+/* Focus Effect on Inputs */
+input:focus, select:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styling */
+button {
+    margin-top: 20px; /* Space above the button */
+    padding: 12px; /* Padding for button */
+    width: 100%; /* Full width for button */
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size for button */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Submitted Applications Section */
+#applicationsList {
+    margin-top: 30px; /* Space above applications list */
+    background: #f9f9f9; /* Light background for contrast */
+    padding: 15px; /* Padding for the applications list */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
